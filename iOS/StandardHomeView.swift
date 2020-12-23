@@ -13,11 +13,13 @@ struct StandardHomeView: View {
     
     var body: some View {
         KFImage(movie.thumbnailURL)
+            .resizable()
+            .scaledToFill()
     }
 }
 
 struct StandardHomeView_Previews: PreviewProvider {
     static var previews: some View {
-        StandardHomeView(movie: exampleMovie)
+        StandardHomeView(movie: exampleMovie1)
     }
 }
