@@ -45,6 +45,7 @@ struct TopMoviePreview: View {
                             }
                         }
                     }
+                    .padding(.bottom, 15)
                 }
                 
                 HStack {
