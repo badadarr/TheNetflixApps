@@ -23,7 +23,6 @@ struct MoreLikeThis: View {
                 
                 ForEach(0..<movies.count) { index in
                     StandardHomeView(movie: movies[index])
-                    
                 }
             }
         }

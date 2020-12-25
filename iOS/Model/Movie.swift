@@ -22,9 +22,12 @@ struct Movie: Identifiable {
     // Personalization
     var currentEpisode: CurrentEpisodeInfo?
     
+    
     var defaultEpisodeInfo: CurrentEpisodeInfo
     var creators: String
     var cast: String
+    
+    var moreLikeThisMovies: [Movie]
     
     var episodes: [Episode]? 
     
