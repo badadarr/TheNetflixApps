@@ -26,6 +26,55 @@ let exampleTrailer3 = Trailer(name: "The Mysterious", videoURL: exampleVideoURL,
 
 let exampleTrailers = [exampleTrailer1, exampleTrailer2, exampleTrailer3]
 
+let episode1 = Episode(name: "Beginnings and Endings",
+                       season: 1,
+                       episodeNumber: 1,
+                       thumbnailImageURLString: "https://picsum.photos/201/100",
+                       description: "Six months after the disappearances, the police form a task force. In 2052, Jonas learns that most of Winden perished in an apocalyptic event.",
+                       length: 53,
+                       videoURL: exampleVideoURL)
+
+let episode2 = Episode(name: "Dark Matter",
+                       season: 1,
+                       episodeNumber: 1,
+                       thumbnailImageURLString: "https://picsum.photos/202/101",
+                       description: "Clausen and Charlotte interview REgina. The Stranger takes Hannah to 1987, where Claudia has an unnerving encounter and Egon visits an old nemesis.",
+                       length: 54,
+                       videoURL: exampleVideoURL)
+
+let episode3 = Episode(name: "Ghosts",
+                       season: 2,
+                       episodeNumber: 1,
+                       thumbnailImageURLString: "https://picsum.photos/203/102",
+                       description: "In 1954, a missing Helge returns, but he'll only speak to Noah. In 1987, Claudia brings the time machine to Tannhaus, and Egon question Ulrich again.",
+                       length: 56,
+                       videoURL: exampleVideoURL)
+
+let episode4 = Episode(name: "Beginnings and Endings",
+                       season: 2,
+                       episodeNumber: 1,
+                       thumbnailImageURLString: "https://picsum.photos/201/103",
+                       description: "Six months after the disappearances, the police form a task force. In 2052, Jonas learns that most of Winden perished in an apocalyptic event.",
+                       length: 53,
+                       videoURL: exampleVideoURL)
+
+let episode5 = Episode(name: "Dark Matter",
+                       season: 2,
+                       episodeNumber: 1,
+                       thumbnailImageURLString: "https://picsum.photos/202/104",
+                       description: "Clausen and Charlotte interview REgina. The Stranger takes Hannah to 1987, where Claudia has an unnerving encounter and Egon visits an old nemesis.",
+                       length: 54,
+                       videoURL: exampleVideoURL)
+
+let episode6 = Episode(name: "Ghosts",
+                       season: 2,
+                       episodeNumber: 1,
+                       thumbnailImageURLString: "https://picsum.photos/203/105",
+                       description: "In 1954, a missing Helge returns, but he'll only speak to Noah. In 1987, Claudia brings the time machine to Tannhaus, and Egon question Ulrich again.",
+                       length: 56,
+                       videoURL: exampleVideoURL)
+
+var allExampleEpisodes = [episode1, episode2, episode3, episode4, episode5, episode6]
 
 let exampleMovie1 = Movie(
     id: UUID().uuidString,
