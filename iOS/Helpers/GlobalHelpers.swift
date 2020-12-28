@@ -36,15 +36,15 @@ let episode1 = Episode(name: "Beginnings and Endings",
 
 let episode2 = Episode(name: "Dark Matter",
                        season: 1,
-                       episodeNumber: 1,
+                       episodeNumber: 2,
                        thumbnailImageURLString: "https://picsum.photos/202/101",
                        description: "Clausen and Charlotte interview REgina. The Stranger takes Hannah to 1987, where Claudia has an unnerving encounter and Egon visits an old nemesis.",
                        length: 54,
                        videoURL: exampleVideoURL)
 
 let episode3 = Episode(name: "Ghosts",
-                       season: 2,
-                       episodeNumber: 1,
+                       season: 1,
+                       episodeNumber: 3,
                        thumbnailImageURLString: "https://picsum.photos/203/102",
                        description: "In 1954, a missing Helge returns, but he'll only speak to Noah. In 1987, Claudia brings the time machine to Tannhaus, and Egon question Ulrich again.",
                        length: 56,
@@ -60,7 +60,7 @@ let episode4 = Episode(name: "Beginnings and Endings",
 
 let episode5 = Episode(name: "Dark Matter",
                        season: 2,
-                       episodeNumber: 1,
+                       episodeNumber: 2,
                        thumbnailImageURLString: "https://picsum.photos/202/104",
                        description: "Clausen and Charlotte interview REgina. The Stranger takes Hannah to 1987, where Claudia has an unnerving encounter and Egon visits an old nemesis.",
                        length: 54,
@@ -68,7 +68,7 @@ let episode5 = Episode(name: "Dark Matter",
 
 let episode6 = Episode(name: "Ghosts",
                        season: 2,
-                       episodeNumber: 1,
+                       episodeNumber: 3,
                        thumbnailImageURLString: "https://picsum.photos/203/105",
                        description: "In 1954, a missing Helge returns, but he'll only speak to Noah. In 1987, Claudia brings the time machine to Tannhaus, and Egon question Ulrich again.",
                        length: 56,
@@ -88,6 +88,7 @@ let exampleMovie1 = Movie(
     creators: "Baran bo Odan, Jantje Friese",
     cast: "Louis Hofmann, Oliver Masucci, Jordis Triebel",
     moreLikeThisMovies: [exampleMovie2, exampleMovie3, exampleMovie4, exampleMovie5, exampleMovie6, exampleMovie7],
+    episodes: allExampleEpisodes,
     trailers: exampleTrailers)
 
 let exampleMovie2 = Movie(

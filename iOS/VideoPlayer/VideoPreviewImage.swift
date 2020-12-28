@@ -9,6 +9,7 @@ import SwiftUI
 import KingfisherSwiftUI
 
 struct VideoPreviewImage: View {
+    
     var imageURL: URL
     var videoURL: URL
     
